@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.fingtest6'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20240303'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+// 配置 JAR 任务
+tasks.named('jar') {
+    manifest {
+        attributes(
+                'Main-Class': 'org.fingtest6.AronaChatGui' // 替换为你的主类的完全限定名
+        )
+    }
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+// 配置测试任务
+test {
+    useJUnitPlatform()
+}
