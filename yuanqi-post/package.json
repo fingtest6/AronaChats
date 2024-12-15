@@ -1,0 +1,25 @@
+{
+  "name": "@fingtest6/koishi-plugin-yuanqi-post",
+  "description": "调用腾讯元器的API来生成对话",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "axios": "^1.7.9",
+    "koishi": "^4.18.0"
+  },
+  "koishi": {
+    "hidden": true
+  }
+}
