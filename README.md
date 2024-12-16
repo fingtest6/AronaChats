@@ -7,12 +7,9 @@
 
 PS:我不是很会写代码所以...此项目代码90%都是AI生成的,所以有不好的地方还请见谅
 
-此项目有以下内容
+此项目有以下内容:
 
-AronaChatCli -java的命令行
-
-AronaChatGui -java的Gui界面
-
-koishi-plugin-yuanqi-post -koishi插件版本
-
-AronaChatMod -Minecraft模组版本(1.21.1-Neoforge)
+- AronaChatCli -java的命令行
+- AronaChatGui -java的Gui界面
+- koishi-plugin-yuanqi-post -koishi插件版本
+- AronaChatMod -Minecraft模组版本(1.21.1-Neoforge)
