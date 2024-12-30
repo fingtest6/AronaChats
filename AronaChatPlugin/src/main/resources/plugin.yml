@@ -1,0 +1,29 @@
+name: AronaChat
+version: '1.0-SNAPSHOT'
+main: org.fingtest6.aronachat
+api-version: '1.21'
+authors: [ fingtest6 ]
+description: 一个简单基于调用腾讯元器API的聊天插件
+
+commands:
+  arona:
+    description: Broadcasts a message with the player's name.
+    usage: /arona [message]
+    permission: arona.use
+  chat:
+    description: Manages chat-related settings.
+    usage: 正确示例/chat reload
+    permission: arona.chat.command
+
+permissions:
+  arona.use:
+    description: Allows use of the /arona command.
+    default: true
+  arona.chat.command:
+    description: Allows use of the /chat command and its subcommands.
+    default: op
+  arona.chat.reload:
+    description: Allows reloading of the configuration file via /chat reload.
+    children:
+      arona.chat.command: true
+    default: op

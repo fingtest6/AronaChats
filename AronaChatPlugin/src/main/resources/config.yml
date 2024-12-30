@@ -1,0 +1,6 @@
+#Token是腾讯元器的Token
+Token: "Token"
+#assistant_id是腾讯元器的智能体ID
+assistant_id: "id"
+#prefix是机器人回复消息的前缀
+prefix: "arona"
