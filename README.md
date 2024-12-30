@@ -14,4 +14,3 @@ PS:我不是很会写代码所以...此项目代码90%都是AI生成的,所以�
 - koishi-plugin-yuanqi-post -koishi插件版本
 - AronaChatMod -Minecraft模组版本(1.21.1-Neoforge)
 - AronaChatPlugin -Minecraft服务器插件版本
-
